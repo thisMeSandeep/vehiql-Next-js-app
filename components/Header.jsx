@@ -7,10 +7,16 @@ import { Heart } from "lucide-react";
 import { Layout } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
 import { SignedOut } from "@clerk/nextjs";
+import { checkUser } from "../lib/checkUser";
 
 const Header = async ({ isAdminPage = false }) => {
 
-  const isAdmin = false;
+
+  const user = await checkUser();
+
+  console.log("user:", user)
+
+  const isAdmin = user?.role === 'ADMIN'
 
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
