@@ -23,7 +23,7 @@ const Home = () => {
           </div>
 
           {/* search */}
-          <HomeSearch />
+          {/* <HomeSearch /> */}
         </div>
       </section>
 
