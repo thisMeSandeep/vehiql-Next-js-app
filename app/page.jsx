@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/button";
-import HomeSearch from "../components/Home-search";
+import HomeSearch from "@/components/Home-search";
 import { ChevronRight } from "lucide-react";
 import { bodyTypes, carMakes, faqItems, featuredCars } from "../lib/data";
 import CarCard from "../components/CarCard";
@@ -23,7 +23,7 @@ const Home = () => {
           </div>
 
           {/* search */}
-          {/* <HomeSearch /> */}
+          <HomeSearch />
         </div>
       </section>
 
