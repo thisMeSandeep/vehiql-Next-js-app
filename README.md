@@ -15,7 +15,7 @@ Here are some screenshots of the application:
 ## Screenshots
 
 Here are some screenshots of the application:
-![Home Page](/Screenshot%20(85).png)
+![Home Page](./public/Screenshot%20(85).png)
 *Home page showcasing the car search feature.*
 
 ![Car Details](/Screenshot%20(86).png)
