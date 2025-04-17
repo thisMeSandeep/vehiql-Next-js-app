@@ -18,13 +18,13 @@ Here are some screenshots of the application:
 ![Home Page](./public/Screenshot%20(85).png)
 *Home page showcasing the car search feature.*
 
-![Car Details](/Screenshot%20(86).png)
+![Car Details](./public/Screenshot%20(86).png)
 *Detailed view of car information.*
 
-![Dashboard](/Screenshot%20(87).png)
+![Dashboard](./public/Screenshot%20(87).png)
 *Dashboard view for Admin.*
 
-![Cars](/Screenshot%20(88).png)
+![Cars](./public/Screenshot%20(88).png)
 *Cars listing page with various options.*
 
 
